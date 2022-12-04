@@ -1,0 +1,4 @@
+<h1>Найдено со скиллом {{skill_name}}: {{len_candidates}}</h2>
+    {% for candidate in candidates_names_num %}
+<p><a href="/candidate/{{candidate.num}}">{{candidate.name}}</a></p>
+    {% endfor %}
